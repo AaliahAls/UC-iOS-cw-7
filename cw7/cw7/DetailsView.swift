@@ -19,10 +19,10 @@ struct DetailsView: View {
             Color.black
             Image(Movie.name)
                 .resizable()
-                .scaledToFill()
-                .frame(height: 900)
+              //  .scaledToFill()
+                .frame(width: 390,height: 900)
                 .blur(radius: 50)
-                .opacity(0.7)
+                .opacity(0.9)
             VStack (spacing: 50){
                    Image(Movie.imageName)
                        .resizable()
